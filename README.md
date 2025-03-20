@@ -224,9 +224,11 @@ mae = mean_absolute_error(y_test, y_pred)
 # Print the results
 print(f"R-squared: {r2}")
 print(f"Mean Absolute
+```
+
 ---
 
-## Visualizing Model Performance
+## Exploratory Data Analysis (EDA) For Model Performance
 
 ```python
 # Plotting Actual vs Predicted values
@@ -246,6 +248,8 @@ plt.title('Residuals Distribution')
 plt.xlabel('Residuals')
 plt.ylabel('Frequency')
 plt.show()
+```
+
 ---
 
 ## Conclusion
