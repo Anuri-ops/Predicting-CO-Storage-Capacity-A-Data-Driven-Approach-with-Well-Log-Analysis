@@ -266,9 +266,7 @@ plt.xlabel('Residuals')
 plt.ylabel('Frequency')
 plt.show()
 ```
-
 ![Residuals Distribution](images/residuals_distribution.png)
-
 ---
 
 ## Conclusion
