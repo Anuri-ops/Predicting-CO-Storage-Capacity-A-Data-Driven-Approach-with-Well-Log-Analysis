@@ -129,6 +129,8 @@ plt.grid(True)
 plt.show()
 ```
 
+![Depth vs Gamma Ray](images/depth_vs_gamma_ray.png)
+
 #### Depth vs Effective Porosity
 ```python
 plt.figure(figsize=(10, 6))
@@ -142,6 +144,8 @@ plt.legend()
 plt.grid(True)
 plt.show()
 ```
+
+![Depth vs Effective Porosity](images/depth_vs_effective_porosity.png)
 
 #### Depth vs Total Porosity
 ```python
@@ -157,6 +161,8 @@ plt.grid(True)
 plt.show()
 ```
 
+![Depth vs Total Porosity](images/depth_vs_total_porosity.png)
+
 #### Depth vs Density (Rock Properties)
 ```python
 plt.figure(figsize=(10, 6))
@@ -171,6 +177,8 @@ plt.grid(True)
 plt.show()
 ```
 
+![Depth vs Density](images/depth_vs_density.png)
+
 ### 2. Correlation Analysis
 ```python
 corr_matrix = Smeaheia_Norway_Well_log_data_cleaned[['Depth_1', 'Effective_Porosity', 'Total_Porosity', 'Density_1', 'Density_2', 'Gamma_Ray_1', 'Resistivity_1']].corr()
@@ -179,6 +187,8 @@ sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', fmt='.2f', linewidths=0.5)
 plt.title('Correlation Matrix: Geological Parameters')
 plt.show()
 ```
+
+![Correlation Matrix](images/correlation_matrix.png)
 
 ## Feature Engineering
 
@@ -243,6 +253,9 @@ plt.title('Actual vs Predicted CO₂ Storage Efficiency')
 plt.xlabel('Actual CO₂ Storage Efficiency')
 plt.ylabel('Predicted CO₂ Storage Efficiency')
 plt.show()
+```
+
+![Actual vs Predicted](images/actual_vs_predicted_co2.png)
 
 # Plotting Residuals (Actual - Predicted)
 residuals = y_test - y_pred
@@ -253,6 +266,8 @@ plt.xlabel('Residuals')
 plt.ylabel('Frequency')
 plt.show()
 ```
+
+![Residuals Distribution](images/residuals_distribution.png)
 
 ---
 
