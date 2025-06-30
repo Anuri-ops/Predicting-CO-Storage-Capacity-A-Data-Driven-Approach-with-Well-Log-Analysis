@@ -253,7 +253,7 @@ plt.title('Actual vs Predicted CO₂ Storage Efficiency')
 plt.xlabel('Actual CO₂ Storage Efficiency')
 plt.ylabel('Predicted CO₂ Storage Efficiency')
 plt.show()
-```
+
 
 ![Actual vs Predicted](images/actual_vs_predicted_co2.png)
 
@@ -265,9 +265,9 @@ plt.title('Residuals Distribution')
 plt.xlabel('Residuals')
 plt.ylabel('Frequency')
 plt.show()
-```
 
 ![Residuals Distribution](./images/residuals_distribution.png)
+
 ---
 
 ## Conclusion
