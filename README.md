@@ -125,6 +125,7 @@ plt.xlabel('Depth (m)')
 plt.ylabel('Gamma Ray (API)')
 plt.title('Depth vs Gamma Ray (Shale vs Non-Shale)')
 plt.legend()
+plt.grid(True)
 plt.show()
 ```
 
@@ -138,6 +139,7 @@ plt.xlabel('Depth (m)')
 plt.ylabel('Effective Porosity (m³/m³)')
 plt.title('Depth vs Effective Porosity')
 plt.legend()
+plt.grid(True)
 plt.show()
 ```
 
@@ -151,6 +153,7 @@ plt.xlabel('Depth (m)')
 plt.ylabel('Total Porosity (m³/m³)')
 plt.title('Depth vs Total Porosity')
 plt.legend()
+plt.grid(True)
 plt.show()
 ```
 
@@ -164,6 +167,7 @@ plt.xlabel('Depth (m)')
 plt.ylabel('Density (g/cm³)')
 plt.title('Depth vs Density (Rock Properties)')
 plt.legend()
+plt.grid(True)
 plt.show()
 ```
 
